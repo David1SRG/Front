@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--Indica la codificación de caracteres a utlizar - Universal-->  
+	<meta charset="UTF-8">	
+	<meta name="descripción" content="Interfaces Responsivas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="style.css">
+	
+	<title>Inicio</title>
+
+<body>
+	<div id="contenedor">
+		<header id="encabezado">
+			<h1><center>Centro Médico Salud & Vida</center></h1>
+		</header>
+
+	  <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+	    <div class="container-fluid">
+	      <a class="navbar-brand" href="#">Inicio</a>
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="navbarsExample03">
+	        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+	          <li class="nav-item">
+	            <a class="nav-link" aria-current="page" href="RegUsuarios.html">Usuarios</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="RegPacientes.html">Pacientes</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="Citas.html" tabindex="-1" aria-disabled="true">Citas</a>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Médicos</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+	              <li><a class="dropdown-item" href="RegMedico.html">Registrar Médico</a></li>
+	              <li><a class="dropdown-item" href="ModMedico.html">Modificar Médico</a></li>
+	              <li><a class="dropdown-item" href="ConMedico.html">Consultar Médico</a></li>
+	            </ul>
+	          </li>
+			  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Registrar</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+	              <li><a class="dropdown-item" href="Tratamiento.html">Tratamiento</a></li>
+	              <li><a class="dropdown-item" href="medicamento.html">Medicamento</a></li>
+	              <li><a class="dropdown-item" href="consultorio.html">Consultorio</a></li>
+	            </ul>
+	          </li>
+	        </ul>
+	        <form>
+	          <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+	        </form>
+	      </div>
+	    </div>
+	  </nav>
+
+		<!--Area de Contenido Específica de la Página o Aplicación-->
+		<div id="carouselExampleCaptions" class="carousel slide">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="img-fluid" src="https://imagenes.eltiempo.com/files/image_1200_600/uploads/2022/03/04/6222df1bdcbc7.jpeg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					<p class="text-warning fw-bold p-3 fs-3">NUESTRA EPS</p>
+					<p class="text-danger fw-bolder fs-4">Somos una EPS enfocada en la mejor atencion, calidad y comodiad, para cualquier situacion que requiera el paciente. Poseemos las mejores herramientas y utilidades para llevar acabo el tratamiento y recuperacion de todos nuestros pacientes</p>
+			  </div>
+			</div>
+			  <div class="carousel-item">
+				<img class="img-fluid" src="https://pbs.twimg.com/media/Djcu47cV4AA6DjE.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <p class="text-warning fw-bold p-3 fs-3">EXCELENTES CONSULTORIOS</p>
+				  <p class="text-danger fw-bolder fs-4">Tenemos consultorios diseñados y adaptados para cualquier situacion de emergencia, junto con la mejor comodiad para su estadia en el centro medico tanto para el paciente como para el acompañante</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img class="img-fluid" src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://insumosmedicoscolombia.com/wp-content/uploads/2022/05/MEDICAL_SLIDER2_1200-X-600.jpg" class="d-block w-100" alt="...">
+			  <div class="carousel-caption d-none d-md-block">
+				  <p class="text-danger fw-bold p-3 fs-3">MEDICOS CAPACITADOS</p>
+				  <p class="text-warning fw-bolder fs-4">Contamos con medicos altamente capacitados, para atenderlos de la mejor manera y con la capacidad de atender en cualquier parte del mundo</p>
+				</div> 
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+
+		  <div class="container-fluid bg-success text-center text-white p-3 fs-3">
+			<p class="extra large">Centro Medico Salud & Vida - Cll 124 #14-65</p>
+			<p class="extra large">Correo: salud&vida@hotmail.com.co</p>
+			<p class="extra large">Telefono: 601 8047564 - 324 8759110</p>
+		  </div>
+
+	<!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también se pueden incluir archivos JavaScript individuales de los únicos plugins que se utilicen)-->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

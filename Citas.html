@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--Indica la codificación de caracteres a utlizar - Universal-->  
+	<meta charset="UTF-8">	
+	<meta name="descripción" content="Interfaces Responsivas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS de Bootstrap -->
+     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title>Mis Citas</title>
+	
+</head>
+
+<body style="background: url(https://p4.wallpaperbetter.com/wallpaper/845/194/524/blue-dark-wallpaper-preview.jpg)no-repeat; background-size:cover">
+	<div id="contenedor">
+		<header id="encabezado">
+			<p class="bg-success text-center fs-2 text-white p-2">Citas Medicas</p>
+		</header>
+
+	  <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+	    <div class="container-fluid">
+	      <a class="navbar-brand" href="index.html#">Inicio</a>
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="navbarsExample03">
+	        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+	          <li class="nav-item">
+	            <a class="nav-link" aria-current="page" href="RegUsuarios.html">Usuarios</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="RegPacientes.html">Pacientes</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="Citas.html" tabindex="-1" aria-disabled="true">Citas</a>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Médicos</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+	              <li><a class="dropdown-item" href="RegMedico.html">Registrar Médico</a></li>
+	              <li><a class="dropdown-item" href="ModMedico.html">Modificar Médico</a></li>
+	              <li><a class="dropdown-item" href="ConMedico.html">Consultar Médico</a></li>
+	            </ul>
+	          </li>
+			  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Registrar</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+	              <li><a class="dropdown-item" href="Tratamiento.html">Tratamiento</a></li>
+	              <li><a class="dropdown-item" href="medicamento.html">Medicamento</a></li>
+	              <li><a class="dropdown-item" href="consultorio.html">Consultorio</a></li>
+	            </ul>
+	          </li>
+	        </ul>
+	        <form>
+	          <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+	        </form>
+	      </div>
+	    </div>
+	  </nav>
+
+		<!--Area de Contenido Específica de la Página o Aplicación-->
+		
+		  <!-- Custom styles for this template -->
+	
+		</head/>
+		<body class="text-center">
+		  
+	  <main class="form-signin">
+		<form>
+		  <h1 class="h3 mb-3 fw-normal">Citas</h1>
+
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Seleccionar
+            </button>
+            <div class="dropdown-menu"></div>
+              <a class="dropdown-item" href="#">Solicitar Cita</a>
+              <a class="dropdown-item" href="#">Cancelar Cita</a>
+              <a class="dropdown-item" href="#">Consultar Cita</a>
+            </div>
+          </div>
+		  <div class="form-floating">
+			<input type="text" class="form-control" id="name" placeholder="Nombres">
+			<label for="floatingInput">Nombres</label>
+		  </div>
+		  <div class="form-floating">
+			<input type="text" class="form-control" id="Especialidad" placeholder="Especialidad">
+			<label for="floatingInput">Especialidad</label> 
+		  </div>
+		  <div class="form-floating">
+			<input type="number" class="form-control" id="No. Documento" placeholder="No. Documento">
+			<label for="floatingInput">No. De Documento</label>
+		  </div>
+	  
+		  <button class="w-100 btn btn-lg btn-danger" type="submit">Mis citas</button>
+		  <p class="mt-5 mb-3 text-muted">&copy; 2024</p>
+		</form>
+	  </main>
+	    
+	  <div class="container-fluid bg-success text-center text-white p-3 fs-3">
+		<p class="extra large">Centro Medico Salud & Vida - Cll 124 #14-65</p>
+		<p class="extra large">Correo: salud&vida@hotmail.com.co</p>
+		<p class="extra large">Telefono: 601 8047564 - 324 8759110</p>
+	  </div>
+
+	<!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también se pueden incluir archivos JavaScript individuales de los únicos plugins que se utilicen)-->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

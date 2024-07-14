@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--Indica la codificación de caracteres a utlizar - Universal-->  
+	<meta charset="UTF-8">	
+	<meta name="descripción" content="Interfaces Responsivas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS de Bootstrap -->
+     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title>Registrar Medico</title>
+	
+</head>
+
+<body style="background: url(https://p4.wallpaperbetter.com/wallpaper/102/633/279/dark-gradient-artist-artwork-wallpaper-preview.jpg)no-repeat; background-size:cover;">
+ 
+	<div id="contenedor">
+		<header id="encabezado">
+			<p class="bg-success text-center fs-2 text-white p-2">Registrar Medico</p>
+		</header>
+
+	  <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+	    <div class="container-fluid">
+	      <a class="navbar-brand" href="index.html#">Inicio</a>
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="navbarsExample03">
+	        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+	          <li class="nav-item">
+	            <a class="nav-link" aria-current="page" href="RegUsuarios.html">Usuarios</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#">Pacientes</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="Citas.html" tabindex="-1" aria-disabled="true">Citas</a>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Médicos</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+	              <li><a class="dropdown-item" href="RegMedico.html">Registrar Médico</a></li>
+	              <li><a class="dropdown-item" href="ModMedico.html">Modificar Médico</a></li>
+	              <li><a class="dropdown-item" href="ConMedico.html">Consultar Médico</a></li>
+	            </ul>
+	          </li>
+			  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Registrar</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+	              <li><a class="dropdown-item" href="Tratamiento.html">Tratamiento</a></li>
+	              <li><a class="dropdown-item" href="medicamento.html">Medicamento</a></li>
+	              <li><a class="dropdown-item" href="consultorio.html">Consultorio</a></li>
+	            </ul>
+	          </li>
+	        </ul>
+	        <form>
+	          <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+	        </form>
+	      </div>
+	    </div>
+	  </nav>
+
+		<!--Area de Contenido Específica de la Página o Aplicación-->
+		
+		<center><div class="col-sm-5">
+	     <form action="#" method="post" enctype="text/plain">
+
+		    <p class="text-center text-white p-3 fs-4">Ingrese Datos Del Medico</p>
+			<p><input class="control" type="text" name="nombres" id="nombres" size="40" placeholder="Ingrese su nombre" required></p>
+			<p><input class="control" type="text" name="tipo documento" id="tipo documento" size="40" placeholder="tipo documento"></p>
+			<p><input class="control" type="text" name="numero" id="identificacion" size="40" placeholder="No. de identificacion" required></p>
+			<p><input class="control" type="text" name="fecha" id="fecha" size="40" placeholder="fecha de nacimiento (D/M/A)"></p>
+			<p><input class="control" type="text" name="genero" id="genero" size="40" placeholder="Ingrese su genero"></p>
+			<p><input class="control" type="text" name="tipo de sangre" id="sangre" size="40" placeholder="Ingrese tipo de sangre"></p>
+			<p><input class="control" type="email" name="correo" id="correo" size="40" placeholder="Ingrese su correo"required><br></p>
+			<p><input class="control" type="password" name="clave" id="clave" size="40" placeholder="Ingrese su contraseña"></p>
+			<p><input class="control" type="text" name="telefono" id="telefono" size="40" placeholder="Ingrese su telefono"><br></p>
+			<p><input class="control" type="text" name="especialidad" id="especialidad" size="40" placeholder="Especialidad"><br></p>
+			<p><input class="control" type="text" name="numero" id="identificacion" size="40" placeholder="No. tarjeta profesional" required><br></p> 
+		    <button type="submit" class="btn btn-primary bg-info">Registrar Médico</button>
+		  </form><br>
+		</div></center>
+	    
+		<div class="container-fluid bg-success text-center text-white p-3 fs-3">
+			<p class="extra large">Centro Medico Salud & Vida - Cll 124 #14-65</p>
+			<p class="extra large">Correo: salud&vida@hotmail.com.co</p>
+			<p class="extra large">Telefono: 601 8047564 - 324 8759110</p>
+		  </div>
+
+	<!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también se pueden incluir archivos JavaScript individuales de los únicos plugins que se utilicen)-->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
